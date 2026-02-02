@@ -1,3 +1,5 @@
+--Mark Hagen SQL Query
+--finds properties sold after January 1, 2020 for over $1,000,000
 CREATE OR REPLACE VIEW student.v_parcels_final AS
 SELECT
 	defaultdb.enterprise.parcels_core.pin,
